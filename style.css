@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    /* cursor: none; */
 }
 
 #mainbody{
@@ -280,7 +281,95 @@ nav div a i{
     height: 100vh;
     background-image: linear-gradient(rgb(187, 52, 52),snow);
     display: flex;
+    
     justify-content: center;
     align-items: center;
     
+}
+
+.contacts>main{
+    height: 80%;
+    width: 80%;
+    /* border: 3px solid; */
+
+}
+
+.contacts>main>h1{
+    font-size: 50px;
+    text-align: center;
+    color: snow;
+    text-decoration: underline;
+    padding: 20px;
+    gap: 0;
+}
+
+.contacts>main>article{
+    width: 100%;
+    height: 83.5%;
+    /* border: 3px solid; */
+    /* background-color: rgba(0, 0, 0, 0.216); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info, .contactform{
+    width: 45%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.216);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.info p{
+    font-size: 20px;
+    color: snow;
+    padding: 5px;
+}
+
+.info a{
+    color: snow;
+}
+
+.all-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.all-links a{
+    color: snow;
+    padding-bottom: 10px;
+
+}
+
+input{
+    height: 50px;
+}
+
+textarea{
+    height: 200px;
+    background: snow;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+form a{
+    display: inline-block;
+    color: snow;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    border: 2px;
 }
