@@ -9,7 +9,7 @@
 #mainbody{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(187, 52, 52),snow);
+    background-image: linear-gradient(rgb(187, 52, 52),maroon);
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ nav div a i{
     align-items: center;
     /* position: sticky;
     top: 0; */
-    background-image: linear-gradient(snow,rgb(187, 52, 52));
+    background-image: linear-gradient(maroon,rgb(187, 52, 52));
     
 }
 
@@ -117,7 +117,7 @@ nav div a i{
 .project{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(187, 52, 52),snow);
+    background-image: linear-gradient(rgb(187, 52, 52),maroon);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,10 +172,19 @@ nav div a i{
 
 }
 
-.experience, .achievements, .contact{
+.experience, .achievements{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(snow ,rgb(187, 52, 52));
+    background-image: linear-gradient(maroon ,rgb(187, 52, 52));
+    /* background-image: linear-gradient(rgb(187, 52, 52),snow); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(187, 52, 52),maroon);
     /* background-image: linear-gradient(rgb(187, 52, 52),snow); */
     display: flex;
     justify-content: center;
@@ -222,7 +231,7 @@ nav div a i{
 .achievements{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(187, 52, 52),snow);
+    background-image: linear-gradient(rgb(187, 52, 52),maroon);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,7 +288,7 @@ nav div a i{
 .contacts{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(187, 52, 52),snow);
+    background-image: linear-gradient(maroon,rgb(187, 52, 52));
     display: flex;
     
     justify-content: center;
